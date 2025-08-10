@@ -27,4 +27,4 @@ fi
 
 # ================= START UVICORN =================
 echo "Starting uvicorn server..."
-uvicorn $APP_TARGET --reload --host 127.0.0.1 --port 8000
+uvicorn $APP_TARGET --host 127.0.0.1 --port 8000
