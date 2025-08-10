@@ -128,7 +128,7 @@ Return a JSON with:
 3. Don't add libraries that came installed with python like "io".
 4. Your output will be executed inside a Python REPL.
 5. Don't add comments
-6. Convert any image/visualisation if present, into base64 PNG and add it to the result.
+6. Convert any image/visualisation if present, into base64 PNG and add it to the result. We need the image url in the format data:image/png;base64,…
 
 You must respond **only** in valid JSON with these properties:
 
